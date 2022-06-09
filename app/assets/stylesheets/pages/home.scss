@@ -1,0 +1,70 @@
+.mpc-container {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  width: 768px;
+  height: 509px;
+  border: gray 2px solid;
+  background-color: rgb(210, 210, 210);
+  border-radius: 8px;
+}
+
+.screen-frame {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 25em;
+  height: 5em;
+  border-radius: 4px;
+  background-color: rgb(41, 47, 40);
+  color: white;
+  font-size: 15px;
+}
+.screen-frame p {
+  padding-left: 30px;
+}
+
+.buttons-wrapper {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  width: 18em;
+  height: 4.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(168, 168, 168);
+}
+
+.button {
+  width:50px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: white;
+}
+#rec,
+#overdub {
+  background-color: rgb(139, 36, 36);
+}
+
+.pads-wrapper {
+  position: absolute;
+  left: 25%;
+  bottom: 20px;
+  width: 25em;
+  height: 23em;
+  background-color: rgb(168, 168, 168);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.pad {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: gray;
+}
